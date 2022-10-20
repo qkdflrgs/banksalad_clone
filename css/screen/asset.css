@@ -1,0 +1,133 @@
+.user-asset {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.user-asset__column:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-asset__name {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.user-asset__money {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.user-asset__column:last-child {
+    display: flex;
+    align-items: flex-end;
+}
+
+.user-asset__btn {
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-screen-ad {
+    display: flex;
+    justify-content: center;
+}
+
+.main-screen-ad img {
+    margin: 30px 0;
+    width: 60%;
+}
+
+.account-lists {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.account-lists__column:first-child span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.account-lists__column:last-child {
+    opacity: 0.7;
+}
+
+.account-lists__column:last-child span {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+.account-list {
+    padding: 0 20px;
+}
+
+.account-list__header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.account-list__main {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-list__main img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.account-list__main__column {
+    display: flex;
+    align-items: center;
+}
+
+.account-list__main__column:first-child span {
+    margin-left: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.account-list__paymoney {
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.blank-box {
+    margin-top: 20px;
+    width: 100%;
+    height: 10px;
+    background-color: gainsboro;
+}
+
+@keyframes iconAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-5px)
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.navigation-bar__column:first-child i {
+    animation: iconAnimation 1s ease-in-out infinite;
+}

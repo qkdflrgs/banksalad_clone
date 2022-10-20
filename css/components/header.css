@@ -1,0 +1,21 @@
+.main-screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    top: 38px;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 2;
+}
+
+.main-screen-header__column > span {
+    font-weight: 600;
+}
+
+.main-screen-header__column i {
+    margin-left: 20px;
+}
