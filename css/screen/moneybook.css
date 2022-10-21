@@ -1,0 +1,85 @@
+.user-moneybook {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.user-moneybook__month {
+    padding-bottom: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.user-moneybook__month span {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.user-moneybook__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-moneybook__outcome__column {
+    margin-bottom: 10px;
+}
+
+.user-moneybook__outcome__column,
+.user-moneybook__income__column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-moneybook__outcome__column span:first-child,
+.user-moneybook__income__column span:first-child {
+    font-size: 16px;
+    opacity: 0.6;
+    margin-right: 10px;
+}
+
+.user-moneybook__outcome__column span:last-child,
+.user-moneybook__income__column span:last-child {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.user-moneybook__income__column span:last-child {
+    color: green;
+}
+
+.user-moneybook__column:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-moneybook__btn {
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes iconAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-5px)
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.navigation-bar__column:nth-child(2) i {
+    animation: iconAnimation 1s ease-in-out infinite;
+}

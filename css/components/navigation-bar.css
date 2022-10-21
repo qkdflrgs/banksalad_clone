@@ -16,13 +16,20 @@
     width: 20%;
 }
 
+.navigation-bar__column a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .navigation-bar__column i {
     font-size: 25px;
     margin-bottom: 10px;
     opacity: 0.8;
 }
 
-.navigation-bar__column > span {
+.navigation-bar__column a span {
     font-size: 12px;
     opacity: 0.4;
 }
